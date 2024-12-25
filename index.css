@@ -1,0 +1,61 @@
+header {
+  display: flex;
+  align-items: center;
+  height: 50px;
+  justify-content: center;
+  background-color: #1D2B53; /* Dark background */
+  color: #FAEF5D; /* White text */
+  padding: 10px 20px; /* Add some spacing */
+  box-shadow: 0 4px 6px rgba(224, 222, 222, 0.86); /* Slight shadow for depth */
+  border-radius: 10px;
+}
+
+header img {
+  width: 50px; /* Set the logo size */
+  height: 50px;
+  border-radius: 50%; /* Make the logo circular, optional */
+  object-fit: contain; /* Ensure image fits properly */
+}
+
+header h1 {
+  font-size: 2.5rem;
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  align-items: center;
+  justify-content: center;
+  text-shadow: 2px 2px 4px rgba(228, 215, 215, 0.7);
+}
+
+header > * {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1 {
+  margin-left: 10px; /* Space between the image and the title */
+}
+
+body{
+  background-color: #7E2553;
+}
+
+#about, #features, #types, #contact{
+    
+    align-items: center;
+    justify-content: center;
+    background-color: #FAEF5D; /* Dark background */
+    color: #1D2B53; /* White text */
+    padding: 10px 20px; /* Add some spacing */
+    box-shadow: 0 4px 6px rgba(224, 222, 222, 0.86); /* Slight shadow for depth */
+    border-radius: 10px;
+    margin-top: 20px;
+    font-family: 'Arial', sans-serif;
+  
+
+
+}
+
+
+
+
